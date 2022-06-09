@@ -49,8 +49,8 @@ let randomList = returnedPassword.sort((a, b) => 0.5 - Math.random(passwordList)
 // passwordSize()
 // }
 for ( let i = 0; i < 8; i++ ) {
-  opt = Math.floor(Math.random() * passwordLength.length);
-  choose = Math.floor(Math.random() * (passwordList.length));
+  Math.floor(Math.random() * passwordLength.length);
+  Math.floor(Math.random() * (passwordList.length));
   passwordList = randomList;
   randomList.splice(8);
 }
